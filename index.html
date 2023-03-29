@@ -15,10 +15,46 @@
     <!-- Bootstrap  main css styles -->
 
     <link rel="stylesheet" href="assets/css/my.css">
+    
+    <script>
+        $ (document).ready(function(){
+            $("#mymodal").modal('show');
+        });
+    </script>
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    
+     <!------------modal------>
+<section >
+    <div class="modal fade" id="mymodal" >
+        <div class="modal-dialog">
+            <div class="modal-content" style="background-color: rgb(223, 223, 224);">
+                <div class="modal-header" style="float:right; border:none;">
+                    
+                    
+                    <a href="#" class="close  btn-lg" data-dismiss="modal" aria-label="close">&times;</a>
+                   
+                    
+                </div>
+                <div class="modal-body">
+                    <h3 class="modal-title text-center text-dark">To see my poster and Templates</h3>
+                 
+                </div>
+
+                <div class="modal-footer" >
+                 
+                    
+                    <button type="button" style="background-color: #544885;width:200px; height:40px; border:none; border-radius: 5px;;" data-bs-dismiss="modal"> <a href="https://vijaydelikar.github.io/myposter.github.io/" style="text-decoration: none; color:white; border-radius: 5px; " target="_blank"> Visit to see posters</a></button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
